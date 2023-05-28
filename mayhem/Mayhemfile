@@ -1,0 +1,9 @@
+project: md2gemini
+target: fuzz-md
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /src/mayhem/fuzz_md.py
+    libfuzzer: true
+

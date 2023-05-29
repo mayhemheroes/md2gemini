@@ -20,7 +20,7 @@ def TestOneInput(data):
               base_url=fdp.ConsumeRandomString(), md_links=fdp.ConsumeBool(), link_func=fdp.ConsumeRandomString(),
               table_tag=fdp.ConsumeRandomString(), checklist=fdp.ConsumeBool())
     except IndexError:
-        if ctr > 1000:
+        if ctr > 100:
             raise
         return -1
 

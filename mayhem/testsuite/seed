@@ -1,0 +1,4 @@
+This is a paragraph with an [inline](https://example.com) link.
+Here is [another](https://example.org/) link, part of the same paragraph.
+
+This is a second paragraph, with a different [link](https://duck.com) in it.
